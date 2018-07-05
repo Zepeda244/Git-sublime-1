@@ -125,8 +125,9 @@ Es de aclarar que la explicación inicial se hace basada en Windows, sin embargo
 ### Para la fusión se usa el comando
     git merge RamaaSerAbsorbida
 ### TENGA EN CUENTA QUE AL FUSIONAR LE PUEDE SALIR DOS TIPOS DE MENSAJES
-### Fast-Forward <– Simple y automático, cuando se trabaja con archivos diferentes o líneas de código distintas
-### Manual Merge <– Largo y manual, antes de hacer la fusión pasa por las manos del usuario, pasa cuando se trabaja los mismos archivos ###o líneas de códgo
+    Fast-Forward <– Simple y automático, cuando se trabaja con archivos diferentes o líneas de código distintas
+    Manual Merge <– Largo y manual, antes de hacer la fusión pasa por las manos del usuario, pasa cuando se trabaja
+    los mismos archivos o líneas de códgo.
 ### Las ramas se crean a partir de donde se encuentre
 ### Para borrar una rama específica se usa:
     git branch -D NombredelaRama
