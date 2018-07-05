@@ -1,1 +1,1 @@
-### Hola a todos bienvenidos al curso de GIt
+Hola a todos bienvenidos al curso de GIt
