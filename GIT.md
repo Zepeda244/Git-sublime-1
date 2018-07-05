@@ -1,3 +1,4 @@
+![](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
 ## Configuración Básica
 
 Configurar Nombre que salen en los commits
