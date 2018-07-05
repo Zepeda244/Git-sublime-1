@@ -104,7 +104,8 @@ Es de aclarar que la explicación inicial se hace basada en Windows, sin embargo
 ## MANEJO DE RAMAS Y FUNCIONES
     Head -> es el commit donde nos entramos
     Ramas -> es una linea de tiempo de nuestro proyecto
-    Rama Master -> es una linea de tiempo de nuestro proyecto donde se comenzó a trabajar, es la rama principal y estable de nuestro proyecto
+    Rama Master -> es una linea de tiempo de nuestro proyecto donde se comenzó a trabajar,
+    es la rama principal y estable de nuestro proyecto
 ### Crear una rama:
     git branch NombredelaRama <-- NombredelaRama es el nombre de nuestra rama
 ### Ver las ramas
