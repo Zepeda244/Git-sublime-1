@@ -1,4 +1,4 @@
-![](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
+![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/12/gitHub.png)
 
 ---
 # Curso Trabajo en equipo con GIT-GITHUB
