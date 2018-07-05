@@ -1,93 +1,100 @@
+![](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
+
 # Git-sublime
-Curso de trabajo en equipo con GITHUB
-El git bash, es una herramienta de tipo consola que básicamente te permite manipular y gestionar todo el proceso a realizar con el proyecto.
+## Curso de trabajo en equipo con GITHUB 
 
-Es de aclarar que la explicación inicial se hace basada en Windows, sin embargo su funcionalidad es igual en cualquier sistema operativo.
+*El git bash, es una herramienta de tipo consola que básicamente te permite manipular y gestionar todo el proceso a realizar con el proyecto.
+Es de aclarar que la explicación inicial se hace basada en Windows, sin embargo su funcionalidad es igual en cualquier sistema operativo.*
 
-Definir el nombre de nuestro proyecto:
-Debe ubicarse por consola en la carpeta donde guardará su proyecto, tenga en cuenta que no importa la ubicación de la carpeta donde tiene guardado su archivo o proyecto, cuando este ubicado en su carpeta deberá iniciar o registrar su proyecto con git usando el siguiente comando:
+## Definir el nombre de nuestro proyecto:
 
-git config --global user.name "NOMBRE DEL AUTOR"
-“Si se llegase a equivocar solo vuelva a usar el comando”
+*Debe ubicarse por consola en la carpeta donde guardará su proyecto, tenga en cuenta que no importa la ubicación de la carpeta donde tiene guardado su archivo o proyecto, cuando este ubicado en su carpeta deberá iniciar o registrar su proyecto con git usando el siguiente comando:*
 
-Ver el nombre ingresado del proyecto:
-Para ello se usa el comando:
+    git config --global user.name "NOMBRE DEL AUTOR"
 
-git config --global user.name
-Definir el correo electrónico:
-git config --global user.mail "CORREO ELECTRONICO"
-Ver el correo definido se usa:
-git config --global user.mail
-Definir los colores para distinguir estados:
-git config --global color.ui true
-Ver la configuración global de colores:
-git config --global --list
-DEFINICIÓN DEL PROYECTO A USAR GIT:
-Ubíquese en la carpeta donde aplicara git
+>“Si se llegase a equivocar solo vuelva a usar el comando”
 
-En la carpeta de inicio al monitoreo del proyecto
+# Ver el nombre ingresado del proyecto:
+# Para ello se usa el comando:
 
-git init
-Ver el estado de nuestro proyecto monitoreado
-git status
-Si existe algún cambio el sistema le indicara en letras rojas al frente del archivo modificado el mensaje:
-modified: nombrearchivo.ext
-Ver que archivos están listos para ser agregados:
-git add
-Agregar un archivo, y cuando ya existe agrega el modificado
-git add archivo.ext
-Ver los cambios
-git status <-- Nos confirma si ya agregamos archivo.ext
-Agregar todos los archivos, si ya existen solo agrega los modificados
-git add -A
-Agregar mensaje al cambio registrado para identificar el cambio
-git commit -m "Mensaje" <-- Permite identificar cada cambio
-Listar cambios de todos los commits, mostrando toda la información:
-D:\PROYECTO\>git log
-commit 2ea6ea0c8d223b074a94451332e2de59c32b909b
-Author: NOMBRE DEL AUTOR <CORREO ELECTRONICO>
-Date: Fri Mar 11 18:22:12 2016 -0500
+    git config --global user.name
+## Definir el correo electrónico:
+    git config --global user.mail "CORREO ELECTRONICO"
+## Ver el correo definido se usa:
+    git config --global user.mail
+## Definir los colores para distinguir estados:
+    git config --global color.ui true
+## Ver la configuración global de colores:
+    git config --global --list
+>    
+## DEFINICIÓN DEL PROYECTO A USAR GIT:
+### Ubíquese en la carpeta donde aplicara git
+>
+### En la carpeta de inicio al monitoreo del proyecto
+>
+    git init
+### Ver el estado de nuestro proyecto monitoreado
+    git status
+### Si existe algún cambio el sistema le indicara en letras rojas al frente del archivo modificado el mensaje:
+    modified: nombrearchivo.ext
+### Ver que archivos están listos para ser agregados:
+    git add
+### Agregar un archivo, y cuando ya existe agrega el modificado
+    git add archivo.ext
+### Ver los cambios
+    git status <-- Nos confirma si ya agregamos archivo.ext
+### Agregar todos los archivos, si ya existen solo agrega los modificados
+    git add -A
+### Agregar mensaje al cambio registrado para identificar el cambio
+    git commit -m "Mensaje" <-- Permite identificar cada cambio
+### Listar cambios de todos los commits, mostrando toda la información
+    D:\PROYECTO\>git log
+    commit 2ea6ea0c8d223b074a94451332e2de59c32b909b
+    Author: NOMBRE DEL AUTOR <CORREO ELECTRONICO>
+    Date: Fri Mar 11 18:22:12 2016 -0500
+>
+### Cambio de la página de bienvenida
+>
+    commit 1118872dee888c449a9e757f2f1832c1122ae35f
+    Author: NOMBRE DEL AUTOR <CORREO ELECTRONICO>
+    Date: Fri Mar 11 18:11:45 2016 -0500
+>
+### Inicio del proyecto 11032016
+>
+## En la anterior lista se observa al frente de commit el código sha que identifica a cada commit
+>
+### Para recorrer los cambios del proyecto y recorrerlo en espacio de tiempo a través de su commits y ramas se utiliza:
+    git checkout
+ >
+## Para ir a un commit específico se utiliza
+ >
+    git chekout 1118872dee888c449a9e757f2f1832c1122ae35f
+    <– Código sha del commit
+>
+## Dentro de la ejecución mostrar el mensaje que confirma el cambio:
+    HEAD is now at 1118872… Inicio del proyecto 11032016
+>
+## Como resultado mostrará el código que corresponde a ese estado del tiempo
+>
+## Si se usa git log mostrará solo el commit donde este ubicado:
+    git log
+    commit 1118872dee888c449a9e757f2f1832c1122ae35f
+    Author: NOMBRE DEL AUTOR <CORREO ELECTRONICO>
+    Date: Fri Mar 11 18:11:45 2016 -0500
+>
+## Inicio del proyecto 11032016
 
-Cambio de la página de bienvenida
-
-commit 1118872dee888c449a9e757f2f1832c1122ae35f
-Author: NOMBRE DEL AUTOR <CORREO ELECTRONICO>
-Date: Fri Mar 11 18:11:45 2016 -0500
-
-Inicio del proyecto 11032016
-
-En la anterior lista se observa al frente de commit el código sha que identifica a cada commit
-
-Para recorrer los cambios del proyecto y recorrerlo en espacio de tiempo a través de su commits y ramas se utiliza:
-git checkout
-Para ir a un commit específico se utiliza
-git chekout 1118872dee888c449a9e757f2f1832c1122ae35f
-<– Código sha del commit
-
-Dentro de la ejecución mostrar el mensaje que confirma el cambio:
-HEAD is now at 1118872… Inicio del proyecto 11032016
-
-Como resultado mostrará el código que corresponde a ese estado del tiempo
-
-Si se usa git log mostrará solo el commit donde este ubicado:
-git log
-commit 1118872dee888c449a9e757f2f1832c1122ae35f
-Author: NOMBRE DEL AUTOR <CORREO ELECTRONICO>
-Date: Fri Mar 11 18:11:45 2016 -0500
-
-Inicio del proyecto 11032016
-
-Moverse al último commit creado:
-git checkout master
-Al validarse con:
-
-D:\PROYECTO\>git log
-Mostrará todos los commits creados
-
-Similar a checkout pero sirve para eliminar los commits
-
-git reset
-TIPOS DE GIT RESET
+## Moverse al último commit creado:
+    git checkout master
+## Al validarse con:
+>
+    D:\PROYECTO\>git log
+## Mostrará todos los commits creados
+>
+## Similar a checkout pero sirve para eliminar los commits
+>
+     git reset
+###TIPOS DE GIT RESET
 Hay varios tipos de git reset
 No se mete con wl working area (es decir no toca nuestro código)
 git reset --soft
