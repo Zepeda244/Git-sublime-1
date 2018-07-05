@@ -1,7 +1,7 @@
 ![](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
 
 ---
-# Curso de trabajo en equipo con GITHUB
+# Curso Trabajo en equipo con GIT-GITHUB
 ---
 ## Git-bash
 *El git bash, es una herramienta de tipo consola que básicamente te permite manipular y gestionar todo el proceso a realizar con el proyecto.
