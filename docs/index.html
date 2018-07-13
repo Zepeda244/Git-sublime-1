@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Practica de login de acceso</title>
+</head>
+<body>
+	
+	<h1>Login</h1>
+	<form>
+		<label for="user">Usuario</label><br>
+		<input type="text" id="user" placeholder="Nombre de usuario"><br>
+		<label for="pass">Password</label><br>
+		<input type="password" id="pass" placeholder="Password"><br>
+		<a id="enviar">Enviar</a>
+	</form>
+
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+$(document).ready(
+	function () {
+		$('#enviar').click(function(){
+			try{
+				var usuario = new Object();
+				//var obj = document.getElementById('user');
+				obj = $('#user')[0];
+				console.log(obj);
+				if(obj.value == ""){
+					alert("Usuario vacio");
+					obj.focus();
+					return;
+				}
+				usuario.user = obj.value;
+				obj = document.getElementById('pass');
+				if(obj.value == ""){
+					alert("Password vacio");
+					obj.focus();
+					return;
+				}
+				usuario.pass = obj.value;
+				let json = JSON.stringify(usuario);
+				alert(json);
+			}catch(e){
+				alert("Error: " + e);
+			}
+		});
+	}
+);
+	</script>
+</body>
+</html>
