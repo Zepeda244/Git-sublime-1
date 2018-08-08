@@ -10,13 +10,12 @@
 3. primer repositorio y Commit
 4. Stage y Log
 5. Git Alias
-6. Git MV-RM-Reset
-7. gitignore
-8. Ramas y Uniones (merge)
-9. Merge con conflictos
-10. Etiquetas (Tags)
-11. Github ( git clone)
-12. git pull
-13. Fork
-14. Pull request
-15. Integración Prosesador de texto (Sublime Text)
+6. gitignore
+7. Ramas y Uniones (merge)
+8. Merge con conflictos
+9. Etiquetas (Tags)
+10. Github ( git clone)
+11. git pull
+12. Fork
+13. Pull request
+14. Integración (Sublime Text)
