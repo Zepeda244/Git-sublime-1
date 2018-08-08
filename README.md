@@ -7,10 +7,10 @@
 
 1. Introducción con Git
 2. Instalación
-3. primer repositorio y Commit
+3. Primer repositorio y Commit
 4. Stage y Log
 5. Git Alias
-6. gitignore
+6. .gitignore
 7. Ramas y Uniones (merge)
 8. Merge con conflictos
 9. Etiquetas (Tags)
