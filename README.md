@@ -1,8 +1,7 @@
-![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/12/gitHub.png)
+<img align="left" width="520" height="520" src="https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/12/gitHub.png">
 
 ### Contenido del Curso 
 ---
-
 - Tipos de versionadores
 - Introducción
 
