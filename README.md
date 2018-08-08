@@ -20,4 +20,4 @@
 12. git pull
 13. Fork
 14. Pull request
-15. Integración Prosesador de texto (Sublime Tex)
+15. Integración Prosesador de texto (Sublime Text)
