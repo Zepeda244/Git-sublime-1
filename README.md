@@ -1,6 +1,6 @@
 ![](https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2017/12/gitHub.png)
 
-    # Contenido del Curso
+    ### Contenido del Curso 
 ---
 
 - Tipos de versionadores
